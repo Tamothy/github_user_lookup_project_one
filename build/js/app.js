@@ -4,6 +4,7 @@ $(document).ready(function() {
   $('#github-username').submit(function(event){
     event.preventDefault();
     var usernameInfo = $('#username').val();
+    $('#username').val("");
   });
 });
 
