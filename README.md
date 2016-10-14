@@ -14,8 +14,8 @@ This project contains a form input that takes a username and outputs GitHub info
 | --------------------------------------------------------|:-------------:| ---------:|
 | It returns your username                                | Tamothy       | "Tamothy"    |
 | It returns your first and last name                     | Tamothy       | "Tam Nguyen"|
-| It GitHub URL link                                      | Tamothy       | "https://github.com/Tamothy"  |
-| It total public repositories                            | Tamothy       | 42 |
+| It returns a GitHub URL link                            | Tamothy       | "https://github.com/Tamothy"  |
+| It returns total public repositories                    | Tamothy       | 42 |
 
 ## Setup/Installation Requirements
 
