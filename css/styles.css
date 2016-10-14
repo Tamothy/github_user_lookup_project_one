@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  font-family: futura;
+}
+
+h1 {
+  color: gray;
+}
+
+h2 .style {
+  color: red;
+}

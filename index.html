@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>GitHub User Lookup</title>
   </head>
   <body>
-    <p class="test-front-end">Hello World!</p>
     <div class="container">
-      <h1>Welcome to Tam's GitHub Repository Search!<h1>
+      <h1>Welcome to Tam's GitHub Repository Search!</h1>
       <form id="github-username">
-        <label for="username">Enter GitHub Username:</label>
-        <input id="username" type="text">
-        <button type="submit">Find</button>
+        <div class="form-group">
+          <label for="username">Enter GitHub Username:</label>
+          <input id="username" type="text">
+          <button type="submit">Find</button>
+        </div>
       </form>
-    </div>
-    <div class="container">
       <div class="gh-user-information">
-        <div id="gh-user-pic"></div>
-        <div id="gh-username"></div>
-        <div id="gh-fullname"></div>
-        <div id="gh-user-url"></div>
-        <div id="gh-repository-count"></div>
+          <div class="col-md-6">
+            <div id="gh-user-pic"></div>
+          </div>
+          <div class="col-md-6">
+            <div id="gh-username"></div>
+            <div id="gh-fullname"></div>
+            <div id="gh-user-url"></div>
+            <div id="gh-repository-count"></div>
+          </div>
       </div>
     </div>
   </body>
