@@ -19,6 +19,7 @@ This project contains a form input that takes a username and outputs GitHub info
 
 ## Setup/Installation Requirements
 
+* Check out the GitHub page: https://tamothy.github.io/github_user_lookup_project_one
 * Download or clone repository
 * Make sure to obtain an API key from GitHub and store into an .env file at the top level of the directory
 * Install Node Project Manager
