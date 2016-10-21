@@ -6,7 +6,7 @@
 
 ## Description
 
-This project contains a form input that takes a username and outputs GitHub information. This utilizes GitHub's API key.
+This project contains a form input that takes a username and outputs GitHub information. This utilizes GitHub's API key to retrieve data information from GitHub. This will display username, full name, GitHub link, total public repository count, and information about each repository.
 
 ## BDD Specifications
 
@@ -16,19 +16,19 @@ This project contains a form input that takes a username and outputs GitHub info
 | It returns your first and last name                     | Tamothy       | "Tam Nguyen"|
 | It returns a GitHub URL link                            | Tamothy       | "https://github.com/Tamothy"  |
 | It returns total public repositories                    | Tamothy       | 42 |
+| It returns information about repository                 | Tamothy       | "Name: address_book" "Description: An address book made using objects." |
 
 ## Setup/Installation Requirements
 
 * Check out the GitHub page: https://tamothy.github.io/github_user_lookup_project_one
 * Download or clone repository
 * Make sure to obtain an API key from GitHub and store into an .env file at the top level of the directory
-* Install Node Project Manager
-* Install the development dependencies in package.json
-* Don't forget to push to remote repository
+* Install packages with `$ npm install` and `$ bower install`
+* Run program with `$ gulp serve`
 
 ## Known Bugs
 
-There was an issue with implementing a custom styles.css file with bower installed, and because of this, we linked the styles.css file in index.html while also keeping the bower bootstrap files.
+No known bugs
 
 ## Support and contact details
 
@@ -42,7 +42,11 @@ CSS
 
 JavaScript
 
-JQuery
+jQuery
+
+Node
+
+Gulp
 
 ### License
 
