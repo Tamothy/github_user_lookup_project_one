@@ -28,7 +28,7 @@ gulp.task('concatInterface', function() {
 });
 
 gulp.task('jsBrowserify', ['concatInterface'], function() {
-  return browserify({ entries: ['./js/front-end-interface.js']})
+  return browserify({ entries: ['./js/github-interface.js']})
     .bundle()
     .pipe(source('app.js'))
     .pipe(gulp.dest('./build/js'));

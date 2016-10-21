@@ -7,10 +7,10 @@ h1 {
   color: gray;
 }
 
-h2 .style {
+.login {
   color: red;
 }
 
-style {
-  color: red;
+#hide {
+  display: none;
 }
